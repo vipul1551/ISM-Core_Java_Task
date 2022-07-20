@@ -1,0 +1,27 @@
+Q   :    why ArrayList ? how it works internally ?  what if it overflow or it is possible?
+	what is the max size of ArrayList?
+A   : 	Internally an ArrayList uses an Object[] . As you add items to an ArrayList , the list checks to see if the backing array has room left. 
+	If there is room, the new item is just added at the next empty space. 
+	If there is not room, a new, larger, array is created, and the old array is copied into the new one.
+
+
+
+		default		growth
+
+arraylist	10		The new capacity is calculated which is 50% more than the old capacity and the array is increased by that capacity.
+linkedlist	0
+vector		10		implementation-dependent
+priorityqueue	11		automatically grow
+hashmap		16   
+hashset		16
+treemap		16	
+treeset		0		1
+map 		16
+
+
+max size of arraylist,hashset in java = 2^31
+
+max size of linkedlist,treemap in java = 2^31 - 1
+
+max size of map,hashmap in java = 2^30
+
