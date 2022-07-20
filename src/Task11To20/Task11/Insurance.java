@@ -8,7 +8,7 @@
 		c. If a person’s health is poor and the person is between 25 and 35 years of age and lives in a
 		village and is a male then the premium is Rs. 6 per thousand.
 		d. In all other cases the person is not insured.
-		Take a person's health, age, city and gender as an input and display the premium as per the rule. This is comment
+		Take a person's health, age, city and gender as an input and display the premium as per the rule.
  */
 
 package Task11To20.Task11;
